@@ -1,0 +1,8 @@
+.vscode
+__pycache__
+baselines
+results
+experiments
+wav2vec2_checkpoints
+archive
+checkpoints
