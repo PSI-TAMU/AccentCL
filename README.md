@@ -64,7 +64,7 @@ Use `accentcl_spanish_chinese.pt` unless you specifically need an earlier checkp
 
 ## Installation
 
-Requires Python 3.10+ (tested on 3.10 and 3.12).
+Requires Python 3.10+.
 
 ```bash
 conda create -n accentcl python=3.12 -y
@@ -76,7 +76,7 @@ Whisper-Large-v3 is downloaded automatically from Hugging Face on first use. A G
 
 ## Pretrained checkpoints
 
-Checkpoints are not stored in this git repository (each is ~2.4GB). Download them and place them under `checkpoints/`:
+Checkpoints are not stored in this git repository (each is ~2.4GB). Download them from [Google Drive](https://drive.google.com/drive/folders/1y9pFXNIRpBpLCuALHX6sb6ZXiyA4oA0F?usp=sharing) and place them under `checkpoints/`:
 
 ```
 checkpoints/
@@ -84,8 +84,6 @@ checkpoints/
 ├── accentcl_spanish.pt
 └── accentcl_spanish_chinese.pt
 ```
-
-> TODO: add the Hugging Face Hub / release link for these checkpoints once published.
 
 ## Quick start
 
