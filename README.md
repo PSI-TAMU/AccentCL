@@ -8,9 +8,9 @@ This is the official repository for the paper
 
 "AccentCL: Robust Accent Classification with Incremental Expansion"
 
-by Anonymous Authors
+by [Mu-Ruei Tseng](https://github.com/Morris88826), [Waris Quamer](https://github.com/warisqr007), [Ghady Nasrallah](https://github.com/Ghadynasrallah), [Ricardo Gutierrez-Osuna](https://scholar.google.com/citations?user=UnuQfEwAAAAJ&hl=en)
 
-*Paper currently under double-blind review for SLT 2026; authors and affiliation are withheld here to preserve review anonymity.*
+Department of Computer Science & Engineering, Texas A&M University
 
 ## News
 **Sep. 2026:** AccentCL is accepted to SLT 2026.
