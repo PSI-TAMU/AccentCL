@@ -1,4 +1,4 @@
-# AccentCL: Robust Accent Classification with Incremental Expansion (SLT 2026, under review)
+# AccentCL: Robust Accent Classification with Incremental Expansion (SLT 2026)
 
 <a href="#"><img src="https://img.shields.io/badge/arXiv-coming%20soon-%23B31B1B"></a>
 <a href="https://anonymized0826.github.io/AccentCL/"><img src="https://img.shields.io/badge/Demo%20Page-online-brightgreen"></a>
@@ -13,7 +13,7 @@ by Anonymous Authors
 *Paper currently under double-blind review for SLT 2026; authors and affiliation are withheld here to preserve review anonymity.*
 
 ## News
-**2026:** AccentCL submitted to SLT 2026 (under review).
+**Sep. 2026:** AccentCL is accepted to SLT 2026.
 
 ## Introduction
 
