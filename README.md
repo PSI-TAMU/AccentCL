@@ -126,9 +126,4 @@ demo.ipynb             # batch demo + confusion matrix over samples/
 ```
 
 ## Citation
-
-The paper is currently under double-blind review. A citation will be added here upon publication.
-
-## License
-
-> TODO: add a license before making this repository public.
+TODO
