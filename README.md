@@ -23,7 +23,7 @@ Department of Computer Science & Engineering, Texas A&M University
 
 Accent classifiers are typically trained with a fixed label inventory and cannot accommodate new accent categories as new data becomes available, while accented speech corpora often exhibit substantial class imbalance and cross-corpus domain shift. AccentCL is a class-incremental learning framework for English accent classification that is robust to both. It extracts multi-layer representations from a frozen Whisper-Large-v3 encoder, trains with an imbalance-aware cross-entropy loss and a domain-mean-alignment loss, and expands its label space via replay-based continual learning — using the frozen base model for knowledge retention and an old-to-new margin loss to reduce overprediction on newly added classes.
 
-For more information, please check out our [Demo Page](https://anonymized0826.github.io/AccentCL/).
+For more information, please check out our [Demo Page]([https://anonymized0826.github.io/AccentCL/](https://psi-tamu.github.io/AccentCL/)).
 
 ## Highlights
 
