@@ -1,9 +1,13 @@
-name: Deploy to GitHub Pages
+name: Deploy website to GitHub Pages
 
 on:
   push:
     branches:
       - main
+    paths:
+      - 'website/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -16,6 +20,9 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    defaults:
+      run:
+        working-directory: website
     steps:
       - uses: actions/checkout@v4
 
@@ -23,6 +30,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
+          cache-dependency-path: website/package-lock.json
 
       - run: npm ci
 
@@ -32,7 +40,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./website/dist
 
       - uses: actions/deploy-pages@v4
         id: deployment
