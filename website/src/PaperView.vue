@@ -7,11 +7,33 @@
           <h2 class="demo-title">
             AccentCL: Robust Accent Classification with Incremental Expansion
           </h2>
-          <p class="demo-subtitle">Anonymous Submission</p>
+          <p class="demo-venue">IEEE Spoken Language Technology (SLT) 2026</p>
+          <p class="demo-authors">
+            <span
+              ><a href="https://github.com/Morris88826" target="_blank">Mu-Ruei Tseng</a
+              ><sup>1</sup></span
+            >
+            <span
+              ><a href="https://github.com/warisqr007" target="_blank">Waris Quamer</a
+              ><sup>1</sup></span
+            >
+            <span
+              ><a href="https://github.com/Ghadynasrallah" target="_blank">Ghady Nasrallah</a
+              ><sup>1</sup></span
+            >
+            <span
+              ><a
+                href="https://scholar.google.com/citations?user=UnuQfEwAAAAJ&hl=en"
+                target="_blank"
+                >Ricardo Gutierrez-Osuna</a
+              ><sup>1</sup></span
+            >
+          </p>
+          <p class="demo-affiliations"><sup>1</sup> Texas A&amp;M University</p>
           <div class="header-links">
             <a href="#" class="header-link">Paper (Coming Soon)</a>
             <span class="header-link-sep">·</span>
-            <a href="#" class="header-link">Code (Coming Soon)</a>
+            <a href="https://github.com/PSI-TAMU/AccentCL/tree/main" class="header-link">Code</a>
           </div>
         </div>
 
@@ -39,9 +61,9 @@
                 English. When adding Spanish-accented English to the pretrained model, AccentCL
                 attains an F1 of 83.3% on the new class while retaining 77.3% balanced accuracy on
                 the base classes. When subsequently adding Chinese-accented English, it achieves
-                61.8% F1 on the new class while preserving 77.6% balanced accuracy on the
-                previously learned classes. These results show that AccentCL enables robust regional
-                accent classification while allowing new accent categories to be added without full
+                61.8% F1 on the new class while preserving 77.6% balanced accuracy on the previously
+                learned classes. These results show that AccentCL enables robust regional accent
+                classification while allowing new accent categories to be added without full
                 retraining.
               </p>
             </div>
@@ -136,6 +158,17 @@
                 accent embeddings at the same stage, showing the newly added Chinese-accented
                 English cluster is well separated from the five base regional clusters and from
                 Spanish-accented English.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Citation -->
+        <div class="row justify-content-center mt-5">
+          <div class="col-lg-10">
+            <div class="citation-section">
+              <h3 class="citation-heading">Citation</h3>
+              <p class="citation-pending">
+                BibTeX will be available upon official publication at SLT 2026.
               </p>
             </div>
           </div>
