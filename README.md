@@ -6,7 +6,7 @@
 <a href="https://huggingface.co/Morris88826/accentcl">
   <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Models-FFD21E">
 </a>
-<a href="https://anonymized0826.github.io/AccentCL/"><img src="https://img.shields.io/badge/Demo%20Page-online-brightgreen"></a>
+<a href="https://psi-tamu.github.io/AccentCL/"><img src="https://img.shields.io/badge/Demo%20Page-online-brightgreen"></a>
 <br>
 
 This is the official repository for the paper
